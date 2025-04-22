@@ -1,0 +1,39 @@
+/* Universal selector to set font and base styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Class selector for styling content boxes */
+  .card {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* ID selector for a main heading */
+  #main-title {
+    text-align: center;
+    color: #4a148c;
+    margin-top: 40px;
+    font-size: 2.5rem;
+  }
+  
+  /* Style an image */
+  img.profile-pic {
+    display: block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #4a148c;
+    margin: 20px auto;
+  }
+  
